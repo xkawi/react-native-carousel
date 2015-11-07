@@ -6,11 +6,11 @@ var {
   View,
   Text,
   ScrollView,
+  Dimensions,
 } = React;
 
 var TimerMixin = require('react-timer-mixin');
 
-var Dimensions = require('Dimensions');
 var { width, height} = Dimensions.get('window');
 
 
